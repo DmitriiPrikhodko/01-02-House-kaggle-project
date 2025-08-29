@@ -1,6 +1,6 @@
 # 01-02-House-kaggle-project
 
-Kabble based - https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
+Kaqqle based - https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 
 ### Участники проекта:
 * Дмитрий Приходько
