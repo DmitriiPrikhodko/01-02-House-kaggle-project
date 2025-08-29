@@ -15,7 +15,7 @@ Kabble based - https://www.kaggle.com/competitions/house-prices-advanced-regress
 * Разработка и внедрение расширенных подходов к инженерии признаков, для повышения информативности исходных данных.
 * Применение современных ансамблевых методов регрессии, включая модели случайного леса и градиентного бустинга, для повышения точности предсказаний.
 
-По заданию оценка качества моделей проводится с использованием метрики RMSE - корня из среднеквадратичной ошибки, рассчитанной между логарифмом предсказанных значений и логарифмом фактической цены продажи. Применение логарифмов позволяет уравновесить вклад ошибок при прогнозировании как дорогих, так и недорогих домов, делая метрику чувствительной к относительным отклонениям, а не к абсолютным значениям.
+По заданию оценка качества моделей проводится с использованием метрики RMSE - корня из среднеквадратичной ошибки, рассчитанной между логарифмом предсказанных значений и логарифмом фактической цены продажи. Логорифмирование позволяет уравновесить вклад ошибок при прогнозировании как дорогих, так и недорогих домов, делая метрику чувствительной к относительным отклонениям, а не к абсолютным значениям.
 
 ## Предобработка:
 Первичный анализ данных показал, что целевая переменная SalePrice в целом имеет близкое к нормальному распределение, однако наблюдаются значительные выбросы: около 10% объектов превышают 95-й перцентиль, что указывает на наличие экстремально дорогих домов.
@@ -32,8 +32,10 @@ Kabble based - https://www.kaggle.com/competitions/house-prices-advanced-regress
  
 		["PoolArea", "PoolQC", "Fence", "MiscFeature", "MasVnrType", "Alley", "OverallCond", "GarageQual", "GarageCond", "LandContour", "MSSubClass", "SaleType", "LowQualFinSF", "LandSlope", "MiscVal", "Utilities", "GarageArea", "BsmtFullBath", "BsmtHalfBath", "FullBath", "HalfBath", "TotalBsmtSF", "1stFlrSF", "2ndFlrSF", "GarageType", "GarageYrBlt", "GarageFinish", "GarageArea", "GarageQual", "GarageCond", "GrLivArea", "BsmtFinSF1", "BsmtFinSF2", "TotRmsAbvGrd", "BedroomAbvGr", "YrSold", "YearBuilt"]
 
-  <img width="381" height="467" alt="image" src="https://github.com/user-attachments/assets/226f281e-663b-42d7-af54-d94787d58fbe" />
-  <img width="749" height="600" alt="image" src="https://github.com/user-attachments/assets/224493cf-7bd9-4fae-a8e3-10579cc837cf" />
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img width="550" height="550" alt="image2" src="https://github.com/user-attachments/assets/224493cf-7bd9-4fae-a8e3-10579cc837cf" />
+  <img width="380" height="450" alt="image1" src="https://github.com/user-attachments/assets/226f281e-663b-42d7-af54-d94787d58fbe" />
+</div>
 
 #### Scaling
 Для нормализации числовых признаков опробовали StandardScaler, RobustScaler. В оптимальной конфигурации использовался StandardScaler. 
