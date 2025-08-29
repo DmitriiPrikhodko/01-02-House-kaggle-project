@@ -9,7 +9,7 @@ Kabble based - https://www.kaggle.com/competitions/house-prices-advanced-regress
 * Надежда Ишпайкина
 
 ### Описание проекта
-В распоряжении предоставляется набор данных по жилым домам в городе Эймс (Айова), включающий 79 признаков, отражающих практически все аспекты характеристик недвижимости. Необходимо построить предиктивную ML модель, способную предсказать конечную стоимость дома (USD) на основании этих признаков. 
+В распоряжение предоставляется набор данных по жилым домам в городе Эймс (Айова), включающий 79 признаков, отражающих практически все аспекты характеристик недвижимости. Необходимо построить предиктивную ML модель, способную предсказать конечную стоимость дома (USD) на основании этих признаков. 
 
 ### Задачи
 * Разработка и внедрение новых признаков, для повышения информативности исходных данных.
@@ -29,7 +29,7 @@ Kabble based - https://www.kaggle.com/competitions/house-prices-advanced-regress
 
 #### Удаление признаков
 На основании анализа матрицы корреляций, результатов F-теста и метода Shap было принято решение исключить 37 признаков, демонстрирующих низкую корреляцию с целевой переменной и/или значительную мультиколлинеарность с другими признаками.
- 
+
 		["PoolArea", "PoolQC", "Fence", "MiscFeature", "MasVnrType", "Alley", "OverallCond", "GarageQual", "GarageCond", "LandContour", "MSSubClass", "SaleType", "LowQualFinSF", "LandSlope", "MiscVal", "Utilities", "GarageArea", "BsmtFullBath", "BsmtHalfBath", "FullBath", "HalfBath", "TotalBsmtSF", "1stFlrSF", "2ndFlrSF", "GarageType", "GarageYrBlt", "GarageFinish", "GarageArea", "GarageQual", "GarageCond", "GrLivArea", "BsmtFinSF1", "BsmtFinSF2", "TotRmsAbvGrd", "BedroomAbvGr", "YrSold", "YearBuilt"]
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
