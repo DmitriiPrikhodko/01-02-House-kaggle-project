@@ -50,7 +50,7 @@ Kaqqle based - https://www.kaggle.com/competitions/house-prices-advanced-regress
 		GarageAgeYrs  - возраст гаража (лет)
 		TotalLivArea  - общая жилая площадь
 		TotalRooms"]  - количество комнат
-		Age           - возврат дома (лет) 
+		Age           - возраст дома (лет) 
 		RemodelAge    - свежесть ремонта (лет)
   
 #### Выбор модели
