@@ -63,3 +63,6 @@ Kabble based - https://www.kaggle.com/competitions/house-prices-advanced-regress
 | R²            | 0.97178         | 0.90210        |
 
 Лучший результат на kaggle: RMSE = 0.13936
+
+<img width="970" height="601" alt="image" src="https://github.com/user-attachments/assets/25fedff4-17ba-4532-8539-ebdbf66affbb" />
+
